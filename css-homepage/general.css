@@ -1,0 +1,17 @@
+body {
+    background-color: lightgrey;
+    padding-top: 60px;
+}
+html{
+    scroll-behavior:smooth
+}
+a {
+    text-decoration: none;
+   
+}
+a:hover {
+    cursor: pointer;
+}
+p {
+    font-family: 'Roboto';
+} 
