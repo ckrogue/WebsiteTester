@@ -12,6 +12,8 @@
     transition: opacity 0.15s;
     vertical-align: top;
     width: 1fr;
+    flex: 1;
+    
 
 }
 .brand-link:hover {
@@ -27,6 +29,7 @@
 .links-to-shop {
     display: inline-block;
     width: 1fr;
+    flex: 1;
     text-align: center;
 }
 .brand-picture-row {
