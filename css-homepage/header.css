@@ -3,6 +3,8 @@
     background-color: lightgrey;
     max-width: 1500px;
     margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
