@@ -25,7 +25,7 @@
 .brand {
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .links-to-shop {
     display: inline-block;
@@ -46,3 +46,40 @@
     display: block;
 
 }
+.featured-items-block {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    column-gap: 2%;
+    margin-bottom: 100px;
+}
+.item-display {
+    display: grid;
+    grid-template-columns: 250px;
+    
+}
+.featured-picture {
+    width: 100%;
+    
+}
+.product-link {
+    font-family: 'Roboto', Arial;
+    color: black;
+    transition: color .15s;
+
+}
+.product-link:hover {
+    color: darkred;
+}
+.image-link {
+    transition: opacity 0.15s;
+}
+.image-link:hover {
+    opacity: 70%;
+}
+.featured-products-header {
+    font-size: 30px;
+    text-align: center;
+}
+
